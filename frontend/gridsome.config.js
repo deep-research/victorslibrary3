@@ -6,5 +6,6 @@
 
 module.exports = {
   siteName: "Victor's Library",
+  siteDescription: "Research on Music and Religion",
   plugins: []
 }

@@ -8379,6 +8379,16 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
+typeface-gilda-display@^1.1.13:
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/typeface-gilda-display/-/typeface-gilda-display-1.1.13.tgz#057222297f4c1508bcd6a3f32202e1ca39ea4f14"
+  integrity sha512-mfSkSIH/eZu73N9IXpddTX9Alpgntn5s9Qdmpg1JTZ9b7MSOnGH3qWGv2j7S49WH2oT6Qu2ev1ariRqzmj6n/Q==
+
+typeface-merienda-one@^1.1.13:
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/typeface-merienda-one/-/typeface-merienda-one-1.1.13.tgz#4b84249a4aa8c5da740085722684fae05629593e"
+  integrity sha512-ymi4YvpuklP22EQhWhWyz8flxKSa99zybKbDJNHjCJpeDlKUdotjahSYgFAS1H6u06J9jevXcf7H+zfv/N5Fzw==
+
 uglify-js@3.4.x:
   version "3.4.10"
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.4.10.tgz#9ad9563d8eb3acdfb8d38597d2af1d815f6a755f"
