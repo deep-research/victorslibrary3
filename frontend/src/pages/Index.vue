@@ -1,6 +1,12 @@
 <template>
   <Layout>
     <b-container>
+      <div id="welcome-quote">
+        <p>"The individual has always had to struggle to keep from being overwhelmed by the tribe. If you try it, you will be lonely often, and sometimes frightened. But no price is too high to pay for the privilege of owning yourself."
+        <br />- Rudyard Kipling</p>
+      </div>
+      <br />
+
       <div class="page-title-mobile">
         <h3 class="text-center">Home</h3>
         <br />
@@ -73,6 +79,14 @@ export default {
 </script>
 
 <style>
+  #welcome-quote p {
+    margin-right: 3rem;
+    margin-left: 3rem;
+    font-size: 100%;
+    line-height: 150%;
+    color: #6c757d;
+  }
+
   @media (max-width: 767px) {
     .page-title-desktop { 
       display: none;

@@ -36,22 +36,6 @@ query {
 </static-query>
 
 <style>
-  html {
-    position: relative;
-    min-height: 100%;
-  }
-  body {
-    margin-bottom: 60px; /* Margin bottom by footer height */
-  }
-  .footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 60px; /* Set the fixed height of the footer here */
-    line-height: 60px; /* Vertically center the text there */
-    background-color: #f5f5f5;
-  }
-
   ul {
     padding-left: 20px;
   }
@@ -61,7 +45,7 @@ query {
     font-size: 30px;
   }
 
- .site-title a {
+ .site-title a, .site-title a:hover {
     text-decoration: none;
     color: black;
  }
