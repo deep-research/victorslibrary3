@@ -8,8 +8,9 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
-import 'typeface-merienda-one'
-import 'typeface-gilda-display'
+import '@fontsource/merienda-one'
+import '@fontsource/gilda-display'
+import '@fontsource/amiko'
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component

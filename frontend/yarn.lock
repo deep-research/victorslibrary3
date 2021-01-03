@@ -846,6 +846,21 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@fontsource/amiko@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/amiko/-/amiko-4.1.0.tgz#19150b5bf5e623a692bd6028a5c07d74727e094c"
+  integrity sha512-YMnZFC3VW36s2VGZ9KjRMJ/8SmWn/X/ywBUiR0E7Ah06qu73jYO4e4+ihL0sR9/fdRaEIQkNjSWPTSJNjh7AYg==
+
+"@fontsource/gilda-display@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/gilda-display/-/gilda-display-4.1.0.tgz#b61d09c4e3673a1dce4f57f209027725a6b7a3f2"
+  integrity sha512-IKdznL5ydCOKcWz5XV6ETl2VCkjlpAKX5F2zOIdCPLx1sdvouzQ8BEvqIi6wmMGBy3Gw4f8Ph0Tm4qzsFE/JEQ==
+
+"@fontsource/merienda-one@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/merienda-one/-/merienda-one-4.1.0.tgz#cceea948ee31b6c74cc12165045ead07e7f4cfe2"
+  integrity sha512-zM5cqzJVJ1Ea448sLbO1iqe0Udec9awe5zYfhPsOKE0vThVDvd4uByglksqRL0qiW+vpN89jHYyI0/gUrKuf/A==
+
 "@gridsome/cli@^0.3.4":
   version "0.3.4"
   resolved "https://registry.yarnpkg.com/@gridsome/cli/-/cli-0.3.4.tgz#42fa7a4368a80bd04ec497c93cae5a66b041fe22"
@@ -8378,16 +8393,6 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
-
-typeface-gilda-display@^1.1.13:
-  version "1.1.13"
-  resolved "https://registry.yarnpkg.com/typeface-gilda-display/-/typeface-gilda-display-1.1.13.tgz#057222297f4c1508bcd6a3f32202e1ca39ea4f14"
-  integrity sha512-mfSkSIH/eZu73N9IXpddTX9Alpgntn5s9Qdmpg1JTZ9b7MSOnGH3qWGv2j7S49WH2oT6Qu2ev1ariRqzmj6n/Q==
-
-typeface-merienda-one@^1.1.13:
-  version "1.1.13"
-  resolved "https://registry.yarnpkg.com/typeface-merienda-one/-/typeface-merienda-one-1.1.13.tgz#4b84249a4aa8c5da740085722684fae05629593e"
-  integrity sha512-ymi4YvpuklP22EQhWhWyz8flxKSa99zybKbDJNHjCJpeDlKUdotjahSYgFAS1H6u06J9jevXcf7H+zfv/N5Fzw==
 
 uglify-js@3.4.x:
   version "3.4.10"
