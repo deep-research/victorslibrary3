@@ -2,23 +2,24 @@
   <div class="layout">
     <div>
       <b-navbar toggleable="sm" type="light" variant="light">
-        <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
+        <b-container>
+          <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
 
-        <b-navbar-brand tag="h1" class="mb-0">
-          <span id="title"><g-link to="/">{{ $static.metadata.siteName }}</g-link></span><br />
-          <span id="subtitle">&#8239;Research on Music 
-            <span id="subtitle-xs"><br />&#8239;</span>and 
-            <span id="subtitle-sm"><br />&#8239;</span>Religion
-          </span>
-        </b-navbar-brand>
+          <b-navbar-brand tag="h1" class="mb-0">
+            <span id="title"><g-link to="/">{{ $static.metadata.siteName }}</g-link></span><br />
+            <span id="subtitle">&#8239;Research on Music 
+              <span id="subtitle-xs"><br />&#8239;</span>and 
+              <span id="subtitle-sm"><br />&#8239;</span>Religion
+            </span>
+          </b-navbar-brand>
 
-        <b-collapse id="nav-text-collapse" is-nav>
-          <b-navbar-nav id="navbar-nav" class="ml-auto">
-            <b-nav-item><g-link to="/songs">Songs</g-link></b-nav-item>
-            <b-nav-item><g-link to="/about">About</g-link></b-nav-item>
-            <b-nav-item><g-link to="/contact">Contact</g-link></b-nav-item>
-          </b-navbar-nav>
-        </b-collapse>
+          <b-collapse id="nav-text-collapse" is-nav>
+            <b-navbar-nav id="navbar-nav" class="ml-auto">
+              <b-nav-item href="/">Home</b-nav-item>
+              <b-nav-item href="/original-music">Original Music</b-nav-item>
+            </b-navbar-nav>
+          </b-collapse>
+        </b-container>
       </b-navbar>
       <hr class="mt-0" />
     </div>
@@ -59,6 +60,8 @@ query {
   /* .navbar.navbar-light.bg-light{
     background-color: blue !important;
     background-image: url("");
+    padding-top: 0;
+    margin-bottom: 0;
   } */
 
   @media only screen and (max-width: 415px) {
