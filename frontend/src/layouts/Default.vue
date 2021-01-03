@@ -4,13 +4,19 @@
       <b-navbar toggleable="sm" type="light" variant="light">
         <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
 
-        <b-navbar-brand tag="h1" class="mb-0"><span id="title">{{ $static.metadata.siteName }}</span><br /><span id="subtitle">&#8239;Research on Music <span id="subtitle-xs"><br />&#8239;</span>and <span id="subtitle-sm"><br />&#8239;</span>Religion</span></b-navbar-brand>
+        <b-navbar-brand tag="h1" class="mb-0">
+          <span id="title"><g-link to="/">{{ $static.metadata.siteName }}</g-link></span><br />
+          <span id="subtitle">&#8239;Research on Music 
+            <span id="subtitle-xs"><br />&#8239;</span>and 
+            <span id="subtitle-sm"><br />&#8239;</span>Religion
+          </span>
+        </b-navbar-brand>
 
         <b-collapse id="nav-text-collapse" is-nav>
-          <b-navbar-nav class="ml-auto">
-            <b-nav-item>Songs</b-nav-item>
-            <b-nav-item>About</b-nav-item>
-            <b-nav-item>Contact</b-nav-item>
+          <b-navbar-nav id="navbar-nav" class="ml-auto">
+            <b-nav-item><g-link to="/songs">Songs</g-link></b-nav-item>
+            <b-nav-item><g-link to="/about">About</g-link></b-nav-item>
+            <b-nav-item><g-link to="/contact">Contact</g-link></b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-navbar>
@@ -35,6 +41,25 @@ query {
     font-family: 'Merienda One', Merriweather, lato,'helvetica neue', helvetica, arial, serif;
     font-size: 30px;
   }
+
+ #title a {
+    text-decoration: none;
+    color: black;
+ }
+
+  #navbar-nav a {
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.5)
+ }
+
+ #navbar-nav a:hover {
+   color: rgba(0, 0, 0, 0.7)
+ }
+
+  /* .navbar.navbar-light.bg-light{
+    background-color: blue !important;
+    background-image: url("");
+  } */
 
   @media only screen and (max-width: 415px) {
     #title {
