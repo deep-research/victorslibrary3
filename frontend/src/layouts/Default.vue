@@ -14,8 +14,8 @@
 
         <b-collapse id="nav-text-collapse" is-nav>
           <b-navbar-nav id="navbar-nav" class="ml-auto">
-            <b-nav-item href="/">Home</b-nav-item>
-            <b-nav-item href="/music">Music</b-nav-item>
+            <b-nav-item href="/"><b-icon-house-fill style="padding-bottom:5.5px" />Home</b-nav-item>
+            <b-nav-item href="/music"><b-icon-music-note-beamed style="padding-bottom:5.5px" />Music</b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-container>
@@ -42,7 +42,7 @@ query {
 
   .site-title {
     font-family: 'Merienda One', Merriweather, lato,'helvetica neue', helvetica, arial, serif;
-    font-size: 30px;
+    font-size: 38px;
   }
 
  .site-title a, .site-title a:hover {
@@ -66,14 +66,14 @@ query {
     margin-bottom: 0;
   } */
 
-  @media only screen and (max-width: 415px) {
+  @media only screen and (max-width: 420px) {
     .site-title {
       font-size: 27px;
       transition: .1s linear;
     }    
   }
 
-  @media only screen and (max-width: 320px) {
+  @media only screen and (max-width: 319px) {
     .site-title {
       font-size: 23px;
       transition: .1s linear;
@@ -94,20 +94,20 @@ query {
     display: none
   }
 
-  p, ul {
+  p, ul, ol {
     line-height: 175%;
-    font-size: 18px;
+    font-size: 17.25px;
     font-family: 'Amiko','lato', lato, 'helvetica neue', helvetica, arial, sans-serif;
   }
 
-  @media only screen and (max-width: 415px) {
+  @media only screen and (max-width: 420px) {
     .site-subtitle {
-      font-size: 18px;
+      font-size: 16px;
       transition: .1s linear;
     }
   }
 
-  @media only screen and (max-width: 390px) and (min-width: 335px) {
+  @media only screen and (min-width: 335px) and (max-width: 360px) {
     .site-subtitle-sm {
       display: inline;
     }

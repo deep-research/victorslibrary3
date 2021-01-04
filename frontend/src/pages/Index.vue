@@ -30,7 +30,7 @@
 
           <h4 id="updates">Updates</h4>
           <ul>
-            <li>1/2/21: This is an experimental redesign of <a href="https://victorslibrary.com/" target="_blank">victorslibrary.com</a>. The <g-link to="/">Home</g-link> page has been updated.</li>
+            <li>1/2/21: This is an experimental redesign of <a href="https://victorslibrary.com/" target="_blank">victorslibrary.com</a>. The <g-link to="/">Home</g-link> page has been created.</li>
           </ul>
           <br />
 
@@ -41,20 +41,20 @@
           <br />
 
           <h4 id="about">About</h4>
-          <p>Victor's library contains research on rock music and occult philosophy. Victor holds a bachelor’s degree in music and religion, and he is also interested in library science.</p>
+          <p>Victor's library contains multidisciplinary research on rock music and occult philosophy. Victor holds a bachelor’s degree in music and religion, and he is also interested in library science.</p>
           <p>Thank you for visiting! Questions and comments are welcome.</p>
           <b-container class="px-0">
             <b-button href="https://bandcamp.com/contact?b=1631569890" target="_blank">Contact Form</b-button>
           </b-container>
           <br />
-          <p style="font-weight: bold;">© {{ new Date().getFullYear() }} Victor Fisher</p>
+          <p style="font-weight: bold;">Copyright © {{ new Date().getFullYear() }} by Victor Fisher</p>
           <br />
 
           <g-image style="display:block;" src="~/mushroom.svg" width="200"/>
           <br /><br />
         </b-col>
         <b-col md="4">
-          <b-card class="bg-light">
+          <b-card title="Contents" class="bg-light">
             <b-card-text>
               <ol>
                 <li><a href="#updates">Updates</a></li>
