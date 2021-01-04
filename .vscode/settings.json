@@ -6,9 +6,12 @@
         "Amiko",
         "Merienda",
         "Merriweather",
+        "fontsource",
+        "gridsome",
         "helvetica",
         "lato",
         "neue",
+        "predeploy",
         "rgba",
         "toggleable"
     ]
