@@ -54,7 +54,7 @@
           <br /><br />
         </b-col>
         <b-col md="4">
-          <b-card title="Contents" class="bg-light">
+          <b-card title="Contents" class="bg-light contents">
             <b-card-text>
               <ol>
                 <li><a href="#updates">Updates</a></li>
@@ -85,6 +85,11 @@ export default {
     font-size: 100%;
     line-height: 150%;
     color: #6c757d;
+  }
+
+  /* Indent Contents List */
+  .contents ol {
+    padding-left: 40px;
   }
 
   @media (max-width: 767px) {
