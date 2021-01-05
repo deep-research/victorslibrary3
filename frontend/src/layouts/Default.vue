@@ -6,12 +6,8 @@
 
         <!-- Website Title -->
         <b-navbar-brand tag="h1" class="mb-0">
-          <span class="site-title"><g-link to="/">{{ $static.metadata.siteName }}</g-link></span><br />
-          <span class="site-subtitle">&#8239;Research on Music
-            <!-- Responsive subtitle text wrapping -->
-            <span class="site-subtitle-xs"><br />&#8239;</span>and 
-            <span class="site-subtitle-sm"><br />&#8239;</span>Religion
-          </span>
+          <div class="site-title"><g-link to="/">Victor's Library</g-link></div>
+          <div class="site-subtitle">&#8239;Research on Music and Religion</div>
         </b-navbar-brand>
 
         <!-- Navbar Navigation Menu -->
@@ -51,7 +47,7 @@ query {
   /* Google Font for Title */
   .site-title {
     font-family: 'Merienda One', Merriweather, lato,'helvetica neue', helvetica, arial, serif;
-    font-size: 38px;
+    font-size: 25px !important;
   }
 
   /* Remove Title link formatting */
@@ -60,43 +56,11 @@ query {
     color: black;
  }
 
-  /* Recreate Navbar Nav link formatting */
-  /* #navbar-nav a {
-    text-decoration: none;
-    color:rgba(0, 0, 0, 0.5)
-  }
-  #navbar-nav a:hover {
-    color: rgba(0, 0, 0, 0.7)
-  } */
-
-  /* Change Navbar color and background image. */
-  /* .navbar.navbar-light.bg-light{
-    background-color: blue !important;
-    background-image: url("");
-    padding-top: 0;
-    margin-bottom: 0;
-  } */
-
-  /* Responsive Title font size */
-  @media only screen and (max-width: 420px) {
-    .site-title {
-      font-size: 27px;
-      transition: .1s linear;
-    }    
-  }
-  @media only screen and (max-width: 319px) {
-    .site-title {
-      font-size: 23px;
-      transition: .1s linear;
-    }    
-  }  
-
   /* Google Font for Subtitle */
   .site-subtitle {
     font-family: 'Gilda Display', lato,'helvetica neue', helvetica, arial, sans-serif;
-    font-size: 20px;
     font-weight: bold;
-    white-space: normal
+    font-size: 15px !important;
   }
 
   /* Google Font for body text */
@@ -104,36 +68,6 @@ query {
     line-height: 175%;
     font-size: 17.25px;
     font-family: 'Amiko','lato', lato, 'helvetica neue', helvetica, arial, sans-serif;
-  }
-
-  /* Responsive Subtitle font size */
-  @media only screen and (max-width: 420px) {
-    .site-subtitle {
-      font-size: 16px;
-      transition: .1s linear;
-    }
-  }
-
-  /* Responsive subtitle text wrapping */
-  .site-subtitle-sm {
-    display: none
-  }
-  .site-subtitle-xs {
-    display: none
-  }
-  @media only screen and (min-width: 335px) and (max-width: 360px) {
-    .site-subtitle-sm {
-      display: inline;
-    }
-  }
-  @media only screen and (max-width: 335px) {
-    .site-subtitle-xs {
-      display: inline;
-    }
-    /* No Brand margin on mobile */
-    .navbar-brand {
-      margin-right: 0px !important;
-    }
   }
 
   /* Vertically center Navbar Nav icons */
