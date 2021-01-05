@@ -20,10 +20,4 @@ export default function (Vue, { router, head, isClient }) {
   Vue.use(BootstrapVue)
   // Optionally install the BootstrapVue icon components plugin
   Vue.use(IconsPlugin)
-
-  // Bootstrap Mobile Responsive
-  // head.meta.push({
-  //   name: 'viewport',
-  //   content: 'width=device-width, initial-scale=1.0'
-  // })
 }
