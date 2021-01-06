@@ -7,7 +7,8 @@
         <!-- Website Title -->
         <b-navbar-brand tag="h1" class="mb-0">
           <div class="site-title"><g-link to="/">Victor's Library</g-link></div>
-          <div class="site-subtitle">&#8239;Research on Music and Religion</div>
+          <div class="site-subtitle pl-3">Research on Music<br />and Religion</div>
+          <!-- Half Space: &#8239; -->
         </b-navbar-brand>
 
         <!-- Navbar Navigation Menu -->
@@ -47,7 +48,7 @@ query {
   /* Google Font for Title */
   .site-title {
     font-family: 'Merienda One', Merriweather, lato,'helvetica neue', helvetica, arial, serif;
-    font-size: 25px !important;
+    font-size: 26px !important;
   }
 
   /* Remove Title link formatting */
@@ -60,7 +61,7 @@ query {
   .site-subtitle {
     font-family: 'Gilda Display', lato,'helvetica neue', helvetica, arial, sans-serif;
     font-weight: bold;
-    font-size: 15px !important;
+    font-size: 17px !important;
   }
 
   /* Google Font for body text */
