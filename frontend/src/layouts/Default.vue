@@ -2,7 +2,7 @@
   <div>
     <b-navbar toggleable="sm" type="light" variant="light">
       <b-container>
-        <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
+        <b-navbar-toggle target="nav-text-collapse" />
 
         <!-- Website Title -->
         <b-navbar-brand tag="h1" class="mb-0">
@@ -29,7 +29,7 @@
     </b-navbar>
     <hr class="mt-0" />
 
-    <slot/>
+    <slot />
   </div>
 </template>
 
