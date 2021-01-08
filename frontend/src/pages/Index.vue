@@ -60,7 +60,7 @@
             by Victor Fisher</p>
           <br />
 
-          <g-image style="display:block;" src="~/mushroom.svg" width="200"/>
+          <g-image style="display:block;" src="~/mushroom.svg" width="200" />
           <br /><br />
         </b-col>
         <b-col md="4">

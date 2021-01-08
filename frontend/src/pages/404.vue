@@ -4,7 +4,7 @@
         <br />
         <h3>Page Not Found</h3>
         <br />
-        <b-button href="/">Return to Home</b-button>
+        <b-button g-link to="/">Return to Home</b-button>
     </b-container>
   </Layout>
 </template>

@@ -9,5 +9,6 @@ module.exports = {
   siteDescription: "Research on Music and Religion",
   plugins: [],
   siteUrl: 'https://victorslibrary.com',
+  // Turn off pathPrefix for custom domain
   pathPrefix: '/victorslibrary2'
 }
