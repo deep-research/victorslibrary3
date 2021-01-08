@@ -8,6 +8,6 @@ module.exports = {
   siteName: "Victor's Library",
   siteDescription: "Research on Music and Religion",
   plugins: [],
-  siteUrl: 'victorslibrary.com',
+  siteUrl: 'https://victorslibrary.com',
   pathPrefix: '/victorslibrary2'
 }
