@@ -7,18 +7,22 @@
         <!-- Website Title -->
         <b-navbar-brand tag="h1" class="mb-0">
           <div class="site-title"><g-link to="/">{{ $static.metadata.siteName }}</g-link></div>
-          <div class="site-subtitle pl-3">Research on Music<br />&#8239;and Religion</div>
+          <div class="site-subtitle pl-3">Research on Music<br />
+            <span class="site-subtitle-2">and Religion</span>
+          </div>
         </b-navbar-brand>
 
         <!-- Navbar Navigation Menu -->
-        <b-collapse id="nav-text-collapse" is-nav>
+        <b-collapse id="nav-text-collapse" is-nav toggleable="lg">
           <b-navbar-nav id="navbar-nav" class="ml-auto">
-            <b-nav-item href="/">
+            <b-nav-item g-link to="/">
               <!-- House icon -->
-              <b-icon-house-fill class="navbar-nav-icon" />Home</b-nav-item>
-            <b-nav-item href="/music">
+              <b-icon-house-fill class="navbar-nav-icon" />Home
+            </b-nav-item>
+            <b-nav-item g-link to="/music/">
               <!-- Music Note icon -->
-              <b-icon-music-note-beamed class="navbar-nav-icon" />Music</b-nav-item>
+              <b-icon-music-note-beamed class="navbar-nav-icon" />Music
+            </b-nav-item>
           </b-navbar-nav>
         </b-collapse>
       </b-container>
@@ -47,7 +51,7 @@ query {
   /* Google Font for Title */
   .site-title {
     font-family: 'Merienda One', Merriweather, lato,'helvetica neue', helvetica, arial, serif;
-    font-size: 27px !important;
+    font-size: 27.5px !important;
   }
 
   /* Remove Title link formatting */
@@ -60,7 +64,11 @@ query {
   .site-subtitle {
     font-family: 'Gilda Display', lato,'helvetica neue', helvetica, arial, sans-serif;
     font-weight: bold;
-    font-size: 18px !important;
+    font-size: 18.5px !important;
+  }
+
+  .site-subtitle-2 {
+    padding-left: 2px;
   }
 
   /* Google Font for body text */
