@@ -1,5 +1,6 @@
 <template>
   <Layout>
+    <p>This is the music page</p>
   </Layout>
 </template>
 

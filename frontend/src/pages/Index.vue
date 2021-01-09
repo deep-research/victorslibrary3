@@ -65,13 +65,11 @@
         </b-col>
         <b-col md="4">
           <b-card title="Contents" class="bg-light contents">
-            <b-card-text>
               <ol>
-                <li><a href="#updates">Updates</a></li>
-                <li><a href="#topics">Topics</a></li>
-                <li><a href="#about">About</a></li>
+                <li><b-link href="#updates" class="card-link" @click.stop>Updates</b-link></li>
+                <li><b-link href="#topics" class="card-link" @click.stop>Topics</b-link></li>
+                <li><b-link href="#about" class="card-link" @click.stop>About</b-link></li>
               </ol>
-            </b-card-text>
           </b-card>
           <br />
         </b-col>
