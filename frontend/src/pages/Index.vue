@@ -13,8 +13,8 @@
       <div class="page-title-mobile">
         <h3 class="text-center">Home</h3>
       </div>
-      <b-row class="flex-column-reverse flex-md-row">
-        <b-col md="8">
+      <b-row class="flex-column-reverse flex-lg-row">
+        <b-col lg="8">
           <div class="page-title-desktop">
             <h3 class="text-center">Home</h3>
           </div>
@@ -46,7 +46,7 @@
 
           <g-image id="mushroom" src="~/mushroom.svg" width="200" />
         </b-col>
-        <b-col md="4">
+        <b-col lg="4">
           <b-card title="Contents" class="bg-light contents">
             <ol>
               <li><b-link href="#updates" class="card-link" @click.stop>Updates</b-link></li>
@@ -88,13 +88,17 @@ export default {
     margin-bottom: 24px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 991px) {
     .page-title-desktop { 
       display: none;
     }
+
+    .contents {
+      max-width: 308px;
+    }
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
     .page-title-mobile { 
       display: none;
     }
