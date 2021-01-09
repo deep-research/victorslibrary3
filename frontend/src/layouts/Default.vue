@@ -82,4 +82,12 @@ query {
   .navbar-nav-icon {
     padding-bottom:5.5px
   }
+
+  h3 {
+    margin-bottom: 24px !important;
+  }
+
+  h4 {
+    margin-bottom: 12px !important;
+  }
 </style>
