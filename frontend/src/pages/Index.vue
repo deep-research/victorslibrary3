@@ -36,7 +36,7 @@
             Victor holds a bachelor’s degree in music and religion, and he is also interested in
             library science.</p>
           <p>Thank you for visiting! Questions and comments are welcome.</p>
-          <b-container class="px-0 mb-3">
+          <b-container class="px-0 mb-4">
             <b-button href="https://bandcamp.com/contact?b=1631569890"
               target="_blank">Contact Form</b-button>
           </b-container>
@@ -82,6 +82,10 @@ export default {
   /* Indent Contents List */
   .contents ol {
     padding-left: 40px;
+  }
+
+  .contents {
+    margin-bottom: 24px;
   }
 
   @media (max-width: 767px) {
