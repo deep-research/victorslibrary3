@@ -89,5 +89,6 @@ query {
 
   h4 {
     margin-bottom: 12px !important;
+    margin-top: 24px !important;
   }
 </style>

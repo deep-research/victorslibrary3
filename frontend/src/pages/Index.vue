@@ -76,16 +76,12 @@ export default {
   }
 
   .welcome-quote {
-    margin-bottom: 32px;
+    margin-bottom: 24px;
   }
 
   /* Indent Contents List */
   .contents ol {
     padding-left: 40px;
-  }
-
-  .contents {
-    margin-bottom: 24px;
   }
 
   @media (max-width: 991px) {
