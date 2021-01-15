@@ -91,4 +91,15 @@ query {
     margin-bottom: 12px !important;
     margin-top: 24px !important;
   }
+
+  html {
+    scroll-behavior: smooth !important;
+  }
+
+::selection {
+  background-color: LightBlue;
+}
+::-moz-selection {
+  background-color: LightBlue;
+}
 </style>
