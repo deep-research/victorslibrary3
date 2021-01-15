@@ -34,10 +34,8 @@
       <slot />
     </main>
 
-    <footer class="text-center">
-      <p class="mt-3"><b>
-        Copyright © {{ new Date().getFullYear() }} by Victor Fisher
-      </b></p>
+    <footer class="text-center mt-3 mb-3">
+      Copyright © {{ new Date().getFullYear() }} by Victor Fisher
     </footer>
   </div>
 </template>
