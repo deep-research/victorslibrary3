@@ -28,14 +28,14 @@
           </b-collapse>
         </b-container>
       </b-navbar>
-      <hr class="mt-0" />
+      <hr class="mt-0 mb-0" />
     </nav>
     <main class="flex-fill">
       <slot />
     </main>
 
     <footer class="text-center mt-3 mb-3">
-      Copyright © {{ new Date().getFullYear() }} by Victor Fisher
+      © {{ new Date().getFullYear() }} Victor Fisher
     </footer>
   </div>
 </template>

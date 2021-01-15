@@ -3,7 +3,7 @@
     <b-container>
       <b-row align-h="center">
         <b-col cols="10" class="welcome-quote">
-          <p class="mb-0">"The individual has always had to struggle to keep from being overwhelmed by the tribe.
+          <p class="mb-0 mt-3">"The individual has always had to struggle to keep from being overwhelmed by the tribe.
             If you try it, you will be lonely often, and sometimes frightened. But no price is too
             high to pay for the privilege of owning yourself."</p>
           <p class="text-center mb-0">- Rudyard Kipling</p>          
@@ -32,7 +32,7 @@
           </ul>
 
           <h4 id="about">About</h4>
-          <p>Victor's library contains multidisciplinary research on rock music and occult philosophy.
+          <p>Victor's library contains multidisciplinary research on rock music and spirituality.
             Victor holds a bachelor’s degree in music and religion, and he is also interested in
             library science.</p>
           <p>Thank you for visiting! Questions and comments are welcome.</p>
