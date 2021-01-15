@@ -40,9 +40,7 @@
             <b-button href="https://bandcamp.com/contact?b=1631569890"
               target="_blank">Contact Form</b-button>
           </b-container>
-          <p><b>
-            Copyright © {{ new Date().getFullYear() }} by Victor Fisher
-          </b></p>
+          <!-- <p><a href="#top">Back to top of page.</a></p> -->
 
           <g-image id="mushroom" src="~/mushroom.svg" width="200" />
         </b-col>
