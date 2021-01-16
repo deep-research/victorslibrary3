@@ -101,4 +101,8 @@ export default {
   #mushroom {
     display: block;
   }
+
+  .contents .card-title {
+    margin-top: 16px !important;
+  }
 </style>
