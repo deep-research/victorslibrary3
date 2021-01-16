@@ -40,7 +40,7 @@
             <b-button href="https://bandcamp.com/contact?b=1631569890"
               target="_blank">Contact Form</b-button>
           </b-container>
-          <p><a href="#top">Back to top of page.</a></p>
+          <p><a href="#backtotop" @click.stop>Back to top of page.</a></p>
 
           <g-image id="mushroom" class="mb-2 mt-4" src="~/mushroom.svg" width="200" />
         </b-col>

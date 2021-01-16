@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex flex-column min-vh-100">
-    <nav>
+    <nav id="backtotop">
       <b-navbar toggleable="sm" type="light" variant="light">
         <b-container>
           <b-navbar-toggle target="nav-text-collapse" />
