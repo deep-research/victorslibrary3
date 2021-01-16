@@ -103,10 +103,10 @@ query {
     scroll-behavior: smooth !important;
   }
 
-::selection {
-  background-color: LightBlue;
-}
-::-moz-selection {
-  background-color: LightBlue;
-}
+  ::selection {
+    background-color: LightBlue;
+  }
+  ::-moz-selection {
+    background-color: LightBlue;
+  }
 </style>

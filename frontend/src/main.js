@@ -22,8 +22,8 @@ export default function (Vue, { router, head, isClient }) {
   Vue.use(IconsPlugin)
 
   // Add a viewport width to a meta tag
-  head.meta.push({
-    name: 'viewport',
-    content: 'width=device-width, initial-scale=1, minimum-scale=1'
-  })
+  // head.meta.push({
+  //   name: 'viewport',
+  //   content: 'width=device-width, initial-scale=1, minimum-scale=1'
+  // })
 }
