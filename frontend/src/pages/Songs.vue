@@ -6,7 +6,7 @@
 <script>
 export default {
   metaInfo: {
-    title: 'About'
+    title: 'Songs'
   }
 }
 </script>

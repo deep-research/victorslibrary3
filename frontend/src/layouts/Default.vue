@@ -20,9 +20,9 @@
                 <!-- House icon -->
                 <b-icon-house-fill class="navbar-nav-icon" />Home
               </b-nav-item>
-              <b-nav-item g-link to="/music/">
-                <!-- Music Note icon -->
-                <b-icon-music-note-beamed class="navbar-nav-icon" />Music
+              <b-nav-item g-link to="/songs/">
+                <!-- Songs Note icon -->
+                <b-icon-music-note-beamed class="navbar-nav-icon" />Songs
               </b-nav-item>
             </b-navbar-nav>
           </b-collapse>

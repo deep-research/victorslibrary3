@@ -28,7 +28,7 @@
 
           <h4 id="topics">Topics</h4>
           <ul>
-            <li><g-link to="/music/">Music</g-link></li>
+            <li><g-link to="/songs/">Songs</g-link></li>
           </ul>
 
           <h4 id="about">About</h4>
