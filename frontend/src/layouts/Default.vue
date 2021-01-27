@@ -30,7 +30,7 @@
       </b-navbar>
       <hr class="mt-0 mb-0" />
     </nav>
-    <main class="flex-fill d-flex">
+    <main class="flex-fill">
       <slot />
     </main>
 
