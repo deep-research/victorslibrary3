@@ -42,7 +42,7 @@
           </b-container>
           <p><a href="#top" @click.stop>Back to top of page.</a></p>
 
-          <g-image id="mushroom" class="mb-2 mt-4" src="~/mushroom.svg" width="200" />
+          <g-image id="mushroom" class="mb-2 mt-4" src="~/../static/mushroom.svg" width="200" />
         </b-col>
         <b-col lg="4">
           <b-card title="Contents" class="bg-light contents">

@@ -8,7 +8,25 @@ module.exports = {
   siteName: "Victor's Library",
   siteDescription: "Research on Music and Religion",
   plugins: [],
-  siteUrl: 'https://victorslibrary.com',
+  siteUrl: "https://victorslibrary.com",
   // Turn off pathPrefix for custom domain
-  pathPrefix: '/victorslibrary3'
+  pathPrefix: "/victorslibrary3",
+  titleTemplate: "Victor's Library - %s",
+  plugins: [
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'writing/**/*.md',
+        typeName: 'Document',
+        remark: {
+          // remark options
+        }
+      }
+    }
+  ],
+  transformers: {
+    remark: {
+      // global remark options
+    }
+  }
 }
