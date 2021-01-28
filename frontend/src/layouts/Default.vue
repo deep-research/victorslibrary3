@@ -104,9 +104,9 @@ query {
   }
 
   ::selection {
-    background-color: LightBlue;
+    background-color: #C3DAFE;
   }
   ::-moz-selection {
-    background-color: LightBlue;
+    background-color: #C3DAFE;
   }
 </style>
