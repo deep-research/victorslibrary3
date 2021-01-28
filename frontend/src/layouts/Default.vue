@@ -34,7 +34,7 @@
       <slot />
     </main>
 
-    <footer class="text-center mt-3 mb-3">
+    <footer class="text-center my-4">
       © {{ new Date().getFullYear() }} Victor Fisher
     </footer>
   </div>
