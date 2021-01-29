@@ -1,0 +1,15 @@
+<page-query>
+query {
+  allArticle
+  	{
+      edges {
+        node {
+          id
+          title
+          summary
+          content
+        }
+      }
+    }
+}
+</page-query>

@@ -99,14 +99,15 @@ query {
     margin-top: 24px !important;
   }
 
+  /* Scroll to top transition */
   html {
     scroll-behavior: smooth !important;
   }
 
   ::selection {
-    background-color: #C3DAFE; /* B3D4FC */
+    background-color: #C3DAFE; /* Slightly Darker: B3D4FC */
   }
   ::-moz-selection {
-    background-color: #C3DAFE; /* B3D4FC */
+    background-color: #C3DAFE; /* Slightly Darker: B3D4FC */
   }
 </style>

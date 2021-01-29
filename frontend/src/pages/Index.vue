@@ -3,9 +3,9 @@
     <b-container>
       <b-row align-h="center">
         <b-col cols="10" class="welcome-quote">
-          <p class="mb-0 mt-3">"The individual has always had to struggle to keep from being overwhelmed by the tribe.
-            If you try it, you will be lonely often, and sometimes frightened. But no price is too
-            high to pay for the privilege of owning yourself."</p>
+          <p class="mb-0 mt-3">"The individual has always had to struggle to keep from being overwhelmed
+            by the tribe. If you try it, you will be lonely often, and sometimes frightened. But no price
+            is too high to pay for the privilege of owning yourself."</p>
           <p class="text-center mb-0">- Rudyard Kipling</p>          
         </b-col>
       </b-row>
@@ -42,7 +42,7 @@
           </b-container>
           <p><a href="#top" @click.stop>Back to top of page.</a></p>
 
-          <g-image id="mushroom" class="mb-2 mt-4" src="~/../static/mushroom.svg" width="200" />
+          <g-image id="mushroom" class="mb-2 mt-4" src="~/pages/mushroom.svg" width="200" />
         </b-col>
         <b-col lg="4">
           <b-card title="Contents" class="bg-light contents">
@@ -63,11 +63,6 @@
     metaInfo: {
       title: 'Home'
     }
-    // methods: {
-    //   mounted () {
-    //     window.scrollTo(0, 0)
-    //   }
-    // }
   }
 </script>
 

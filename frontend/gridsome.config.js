@@ -16,7 +16,7 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'writing/**/*.md',
+        path: 'src/writing/**/*.md',
         typeName: 'Article',
         remark: {
           // remark options
