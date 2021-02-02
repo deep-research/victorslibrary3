@@ -14,19 +14,13 @@ module.exports = {
   titleTemplate: "Victor's Library - %s",
   plugins: [
     {
-      use: '@gridsome/source-filesystem',
+      use: '@gridsome/vue-remark',
       options: {
-        path: 'src/writing/**/*.md',
         typeName: 'Article',
-        remark: {
-          // remark options
-        }
+        baseDir: './src/writing/',
+        template: './src/templates/Articles.vue',
+        plugins: []
       }
     }
-  ],
-  transformers: {
-    remark: {
-      // global remark options
-    }
-  }
+  ]
 }
