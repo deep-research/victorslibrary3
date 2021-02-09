@@ -10,7 +10,7 @@ module.exports = {
   plugins: [],
   siteUrl: "https://victorslibrary.com",
   // Turn off pathPrefix for custom domain
-  pathPrefix: "/victorslibrary3",
+  pathPrefix: "/victorslibrary3-gridsome",
   titleTemplate: "Victor's Library - %s",
   plugins: [
     {
