@@ -110,4 +110,8 @@ query {
   ::-moz-selection {
     background-color: #C3DAFE; /* Slightly Darker: B3D4FC */
   }
+
+  .router-link-exact-active {
+    font-weight: bold;
+  }
 </style>
